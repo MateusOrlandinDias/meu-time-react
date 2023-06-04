@@ -3,7 +3,6 @@ import logo from '../../assets/Meu-time-logo.png'
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import api from '../../services/api';
-const axios = require('axios');
 
 export default function Login() {
     const [apiKey, setApiKey] = useState('');
